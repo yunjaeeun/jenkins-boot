@@ -21,7 +21,7 @@ public class CalculatorController {
     }
 
     @GetMapping("/plus")
-    public CalculatorDTO getPlus(CalculatorDTO calculatorDTO) {
+    public CalculatorDTO getPlus(CalculatorDTO calculatorDTO) {  
 //        System.out.println(calculatorDTO.getNum1() + " : " + calculatorDTO.getNum2());
         int result = calculatorService.plus(calculatorDTO);
 
